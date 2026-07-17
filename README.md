@@ -40,14 +40,17 @@ Java Naming Conventions :
 
 Class names: Use PascalCase (Upper CamelCase).
 ✅ Student, BankAccount, HelloWorld
+
 ❌ student, bank_account
 
 Method names: Use camelCase.
 ✅ getName(), calculateSum(), displayResult()
+
 ❌ GetName(), calculate_sum()
 
 Variable names: Use camelCase.
 ✅ studentName, totalMarks, age
+
 ❌ StudentName, student_name
 
 Constant names: Use UPPER_CASE with underscores.
