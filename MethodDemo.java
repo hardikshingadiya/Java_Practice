@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class car
+public class Car
 {
     String brand,model;
     int year;
     public static void main(String args[])
     {
-        car c1 = new car();
-        car c2 = new car();
+        Car c1 = new Car();
+        Car c2 = new Car();
         getDetails(c1);
         getDetails(c2);
         c1.displayDetails(c1.brand,c1.model,c1.year);
@@ -18,7 +18,7 @@ public class car
         System.out.println("Model : "+model);
         System.out.println("Year : "+year);
     }
-    public static void getDetails(car c)
+    public static void getDetails(Car c)
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Brand : ");
